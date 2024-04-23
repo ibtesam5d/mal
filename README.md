@@ -20,14 +20,14 @@ Performed analysis on malware factura.doc which is labeled as “trojan” by Vi
 After the analysis it is no doubt that the malware sample is highly dangerous with a CVSS score of 7.8. It is a “trojan” which is also threatening to the enterprise environment. Additionally, the malware is associated with Microsoft Office Applications such as Word, Excel etc.
 
 ### Findings:
-Malware type: “trojan”
-Files dropped: aro.exe
-Malware Communicated to: seed-bc[.]com
-IP Address: 185.36.74.48
-VirusTotal score: 43/59
-Registry used: Microsoft Equation 3.0
-CVE: 2017-11882, 2018-0802
-SHA256 Hash: 5a31c77293af2920d7020d5d0236691adcea2c57c2716658ce118a5cba9d4913
+- Malware type: “trojan”
+- Files dropped: aro.exe
+- Malware Communicated to: seed-bc[.]com
+- IP Address: 185.36.74.48
+- VirusTotal score: 43/59
+- Registry used: Microsoft Equation 3.0
+- CVE: 2017-11882, 2018-0802
+- SHA256 Hash: 5a31c77293af2920d7020d5d0236691adcea2c57c2716658ce118a5cba9d4913
 
 ### Remediations
 - All office applications should be updated to the latest version

@@ -1,6 +1,5 @@
 # Malware Analysis Report
-Performed analysis on malware factura.doc which is labeled as “trojan” by VirusTotal. The analysis was done in a sandboxed LAB environment using a linux toolkit called Remnux. After performing static and emulated dynamic analysis, it was found that the malware uses “Microsoft Office Memory Corruption Vulnerability” and has a CVSS base score of 7.8 (High). Once executed the malware can run arbitrary code in the context of the current user. Most common file dropped as a result of execution is aro.exe at the Application Data folder.
-
+Conducted an in-depth analysis of the malware "factura.doc," identified as a "trojan" by VirusTotal. Utilized a sandboxed LAB environment facilitated by the Remnux Linux toolkit to perform comprehensive static and emulated dynamic analyses. Findings revealed the exploitation of the "Microsoft Office Memory Corruption Vulnerability," resulting in a CVSS base score of 7.8 (High). It was determined that upon execution, the malware exhibits the capability to execute arbitrary code within the current user's context. Notably, the most common file dropped post-execution was identified as "aro.exe," typically located in the Application Data folder.
 ## Steps Performed
 - Static Analysis
 - EEmulated Dynamic Analysis
